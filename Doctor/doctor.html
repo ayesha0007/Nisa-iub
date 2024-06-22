@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="doctorStyle.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="profile-img"></div>
+                <h2>Dr Cyra</h2>
+                <p>Psychiatrist</p>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">Service</a>
+                <a href="#" class="nav-item">Profile</a>
+                <a href="#" class="nav-item">Prescription</a>
+                <a href="/login.html" class="nav-item">Log Out</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="logo">Dorri</div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="user-info">
+                    <span>Dr Cyra</span>
+                    <img src="profile-pic-placeholder.png" alt="Profile Picture">
+                </div>
+            </header>
+            <div class="breadcrumb">
+                <a href="#">Home</a> > <a href="#">Dashboard</a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">Patient Completed<br>54</div>
+                <div class="stat-item">Expert Sleep Disorder</div>
+                <div class="stat-item">Running<br>22</div>
+                <div class="stat-item">Rating<br>5</div>
+            </div>
+            <div class="service-details">
+                <h2>Service Details</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serial</th>
+                            <th>Location</th>
+                            <th>Chosen Category</th>
+                            <th>Schedule</th>
+                            <th>Payment</th>
+                            <th>Feedback</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Room-A</td>
+                            <td>Exam Stress</td>
+                            <td>11th June 9:00 AM</td>
+                            <td>Done</td>
+                            <td>Good</td>
+                        </tr>
+                        <!-- Additional rows as needed -->
+                    </tbody>
+                </table>
+                <div class="pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">...</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

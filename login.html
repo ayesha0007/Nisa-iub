@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <style>
+    .bg-custom-blue {
+        background-color: #DFF2F9;
+    }
+</style>
+</head>
+<body class="bg-custom-blue ">
+    <header>
+        <nav>
+          <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                    <a>About</a>
+                    <ul class="p-2">
+                      <li><a>Resource</a></li>
+                      <li><a>Case Studies</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Who we serve</a></li>
+                  <li><a>Brainstrom</a></li>
+                  <li>
+                    <a>About</a>
+                    <ul class="p-2">
+                      <li><a>Phychiatrist</a></li>
+                      <li><a>Councilor</a></li>
+                      <li><a>Yoga Trainer</a></li>
+                      <li><a>Seminar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="w-12 rounded-full">
+                <img src="/image/Dorri2-Photoroomcopy.png" />
+              </div>
+    
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <details>
+                    <summary>About</summary>
+                    <ul class="p-2">
+                      <li><a>Resource</a></li>
+                      <li><a>Case Studies</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Who we serve</a></li>
+                <li><a>Brainstrom</a></li>
+                <li><a>Contact</a></li>
+                <li>
+                  <details>
+                    <summary>Book Appointment</summary>
+                    <ul class="p-2">
+                      <li><a>Phychiatrist</a></li>
+                      <li><a>Councilor</a></li>
+                      <li><a>Yoga Trainer</a></li>
+                      <li><a>Seminar</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+        <img src="/image/login-removebg-preview.png" alt="">   
+        </div>
+          <div class="card shrink-0 w-full max-w-sm border-2 border-indigo-600  rounded-3xl">
+            <label class="text-center font-extrabold mb-5 text-5xl">Login</label>
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <label>Have no Account? <span class="underline"><a href="register.html">Register here</a></span></label>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

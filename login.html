@@ -6,6 +6,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/style.css">
   <title>Document</title>
   <style>
     .bg-custom-blue {
@@ -25,7 +26,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                   </svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 labColor">
                   <li><a href="index.html">Home</a></li>
                   <li>
                     <a>About</a>
@@ -53,8 +54,8 @@
               </div>
     
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
+            <div class="navbar-center hidden lg:flex labColor">
+              <ul class="menu menu-horizontal px-1 ">
                 <li><a href="index.html">Home</a></li>
                 <li>
                   <details>
@@ -91,7 +92,7 @@
         <img src="/image/login-removebg-preview.png" alt="">   
         </div>
           <div class="card shrink-0 w-full max-w-sm border-2 border-indigo-600  rounded-3xl">
-            <label class="text-center font-extrabold mb-5 text-5xl">Login</label>
+            <label class="text-center font-extrabold mb-5 text-5xl font-color">Login</label>
             <form class="card-body">
               <div class="form-control">
                 <label class="label">
@@ -109,10 +110,40 @@
                 </label>
               </div>
               <label>Have no Account? <span class="underline"><a href="register.html">Register here</a></span></label>
-              
+              <button class="button-color btn">Login</button>
             </form>
           </div>
         </div>
       </div>
 </body>
+</html>
+<!-- foooter -->
+<footer class="footer p-10 bg-slate-700 text-base-content">
+  <aside>
+    <img src="/image/Dorri2-Photoroomcopy.png" class="w-24">
+    <p>DORI<br>BELOVED YOU</p>
+  </aside> 
+  <nav>
+    <h6 class="footer-title">Services</h6> 
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav> 
+  <nav>
+    <h6 class="footer-title">Company</h6> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav> 
+  <nav>
+    <h6 class="footer-title">Legal</h6> 
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav>
+</footer>
+</body>
+
 </html>

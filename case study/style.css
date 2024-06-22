@@ -1,0 +1,102 @@
+body {
+    background-color: #DFF2F9;
+    color: #166484;
+    font-family: Arial, sans-serif;
+}
+
+.container, .resources {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1, h2 {
+    color: #166484;
+}
+
+.case-study {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.study-step {
+    text-align: center;
+    width: 30%;
+}
+
+.study-step img {
+    width: 100%;
+    height: auto;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.introduction {
+    margin: 20px 0;
+}
+
+.demographics {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.demographics img {
+    width: 100%;
+    height: auto;
+}
+
+.outcome {
+    margin: 20px 0;
+}
+
+.resources header {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.seminars {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.seminar {
+    width: 30%;
+    text-align: center;
+}
+
+.seminar img {
+    width: 100%;
+    height: auto;
+}
+
+.informative {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video {
+    width: 200px;
+    height: 150px;
+    background-color: grey;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}

@@ -7,6 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
   <style>
     .bg-custom-blue {
@@ -27,13 +28,13 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 labColor">
               <li><a>Home</a></li>
               <li>
                 <a>About</a>
                 <ul class="p-2">
-                  <li><a>Resource</a></li>
-                  <li><a>Case Studies</a></li>
+                  <li><a href="/resources/resources.html">Resource</a></li>
+                  <li><a href="/case study/caseStudy.html">Case Studies</a></li>
                 </ul>
               </li>
               <li><a>Who we serve</a></li>
@@ -55,15 +56,15 @@
           </div>
 
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+        <div class="labColor navbar-center hidden lg:flex">
+          <ul class=" menu menu-horizontal px-1">
             <li><a>Home</a></li>
             <li>
               <details>
                 <summary>About</summary>
                 <ul class="p-2">
-                  <li><a>Resource</a></li>
-                  <li><a>Case Studies</a></li>
+                  <li><a href="/resources/resources.html">Resource</a></li>
+                  <li><a href="/case study/caseStudy.html">Case Studies</a></li>
                 </ul>
               </details>
             </li>
@@ -85,7 +86,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a href="login.html" class="btn btn-info">Login</a>
+          <a href="login.html" class="btn button-color">Login</a>
         </div>
       </div>
     </nav>
@@ -93,11 +94,11 @@
   <main>
     <div>
       <div class="hero min-h-screen" style="background-image: url(/image/background.jpeg);">
-        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-overlay bg-opacity: 1"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold" Healthy Mind</h1>
-              <h1 class="mb-5 text-5xl font-bold">5 Mindfullness Habits for <br>Daily Practice</h1>
+              <h1 class="mb-5 text-5xl font-bold">Mindfullness Habits for <br>Daily Practice</h1>
               <div class="ml-36 rounded-full">
                 <img src="/image/Dorri2-Photoroomcopy.png" />
               </div>
@@ -114,20 +115,20 @@
       </div>
 
       <div class="ml-48">
-        <h1 class="text-4xl text-blue-800 font-bold">We are qualified <br> & of experience in <br>this field</h1>
-        <p class="text-xl font-medium">In order for us to achieve total wellness, we need to maintain both our physical
+        <h1 class="text-4xl font-color font-bold">We are qualified <br> & of experience in <br>this field</h1>
+        <p class="text-xl text-gray-500">In order for us to achieve total wellness, we need to maintain both our physical
           and mental health. When we have good mental health and wellness we can manage our emotions and behaviours. We
           are able to handle life’s stressors, build strong relationships, and lead productive and fulfilling lives.
           There are many things we can do to boost our mood, build resilience, and get more enjoyment out of life. Our
           mental health should be a priority for us all!</p>
-        <button class="btn btn-info">Get More Info</button>
+        <button class="button-color">Get More Info</button>
       </div>
     </div>
 
 
     <section class="text-center pt-10">
-      <h2 class="text-4xl text-blue-800 font-extrabold">Our Featured Products</h2>
-      <p class="lg:max-w-3xl  mx-auto text-xl font-medium">There are many variations of passages of Lorem Ipsum
+      <h2 class="text-4xl font-color font-extrabold ">Our Featured Products</h2>
+      <p class="lg:max-w-3xl  mx-auto text-xl text-gray-500">There are many variations of passages of Lorem Ipsum
         available, but
         the majority have suffered alteration in some form, by injected humour, or randomised words which don't
         look even slightly believable. </p>
@@ -139,7 +140,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -150,7 +151,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -161,7 +162,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -172,7 +173,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -183,7 +184,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -194,7 +195,7 @@
             <h2 class="card-title">Psychiatrist Service</h2>
             <p>Psychiatrist Service with Field Experience.With Years of Field Experience</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-info">--></button>
+              <button class="button-color btn">--></button>
             </div>
           </div>
         </div>
@@ -203,14 +204,14 @@
       </div>
 
       <div>
-        <button class="btn btn-info">More Info</button>
+        <button class="button-color btn">More Info</button>
       </div>
     </section>
 
     <!-- meet our team -->
     <section class="text-center pt-10">
-      <h2 class="text-4xl text-blue-800 font-extrabold">Meet Our Team</h2>
-      <p class="lg:max-w-3xl  mx-auto text-xl font-medium">the majority have suffered alteration in some form, by
+      <h2 class="text-4xl  font-extrabold font-color">Meet Our Team</h2>
+      <p class="lg:max-w-3xl  mx-auto text-xl text-gray-500">the majority have suffered alteration in some form, by
         injected humour, or randomised
         words which don't look even slightly believable. </p>
 
@@ -243,8 +244,8 @@
 
     <!-- Why Choose us -->
     <section class="text-center pt-10">
-      <h2 class="text-4xl text-blue-800 font-extrabold">Why Choose Us</h2>
-      <p class="lg:max-w-3xl  mx-auto text-xl font-medium">We Provide A Good Service For You, Beacuse we Care you </p>
+      <h2 class="text-4xl font-color font-extrabold">Why Choose Us</h2>
+      <p class="lg:max-w-3xl  mx-auto text-xl text-gray-500">We Provide A Good Service For You, Beacuse we Care you </p>
 
      <div class="flex justify-center gap-5">
       <div class="border-solid border-2 border-indigo-600  rounded-3xl h-48 w-48">
@@ -272,13 +273,14 @@
 
 <!-- What customer says -->
     <section class="text-center pt-10">
-      <h2 class="text-4xl text-blue-800 font-extrabold">What Customer Says</h2>
-      <p class="lg:max-w-3xl  mx-auto text-xl font-medium">Having good  mental health, or being mentally healthy, is more than just the absence  of illness, rather it's a state of overall wellbeing. </p>
+      <h2 class="text-4xl font-color font-extrabold">What Customer Says</h2>
+      <p class="lg:max-w-3xl  mx-auto text-xl text-gray-500">Having good  mental health, or being mentally healthy, is more than just the absence  of illness, rather it's a state of overall wellbeing. </p>
 
 
       <body class="bg-gray-100">
         <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">Customer Reviews</h2>
+            <h2 class="text-3xl font-extrabold font-color mb-8 text-center">Customer Reviews</h2>
+            <p class="lg:max-w-3xl  mx-auto text-xl text-gray-500">Having good  mental health, or being mentally healthy, is more than just the absence  of illness, rather it's a state of overall wellbeing.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Review 1 -->
                 <div class="bg-white p-6 rounded-lg shadow-md">

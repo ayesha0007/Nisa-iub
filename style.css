@@ -19,3 +19,76 @@
     color:#166484;
     font-size: 50px;
 }
+Fahim
+fahim_59293
+Online
+
+nis007 — Today at 02:08
+.background-image {
+background-image: url('your-background-image.jpg');
+background-size: cover;
+height: 100vh;
+width: 100vw;
+position: absolute;
+Expand
+style.css
+1 KB
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+Expand
+test.html
+1 KB
+let tips = document.querySelectorAll('.tip');
+let nextTipButton = document.querySelector('.next-tip');
+let currentTipIndex = 0;
+
+tips[currentTipIndex].classList.add('active');
+Expand
+test.js
+1 KB
+﻿
+.background-image {
+	background-image: url('your-background-image.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.tips {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.tip {
+	display: none;
+}
+
+.tip.active {
+	display: block;
+}
+
+.next-tip {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.next-tip:hover {
+	background-color: #3e8e41;
+}
+style.css
+1 KB

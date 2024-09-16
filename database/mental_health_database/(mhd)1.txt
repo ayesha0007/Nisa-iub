@@ -1,0 +1,31 @@
+AdminId	Fname	Lname	Gender	Password				
+ad123	Ayesha	Siddika	Female	ay123467				
+Lisence Number	Past Patient	Expert	Current patient					
+Lisence Number	Identify Problem	Tips						
+Name	AdminId							
+LicenseNumber	Fname	Lname	Contact	Email	Password	Gender	AdminId	
+PatientId	Fname	Lname	Contact	Gender	Email	Password	Date of Birth	AdminId
+Lisence Number	PatientId	Date	Time	Rating				
+PatientId	Name	Record Problem						
+Bill Id	Date	AdminId						
+Lisence Number								
+Lisence Number	Identify Problem	Medication	Dose	Tips				
+AdminId	Case_study	Resource						
+Lisence Number	Serial	location	Category	Payment				
+Lisence Number	Past Patient	Expert	Current Patient					
+Worker Id	Fname	Lname	Gender	Contact Number	Email	Password	Lisence Number	AdminId
+Licence Number								
+License Number	Serial	Location	Category	Schedule	Payment			
+License Number	Past Patient	Experties	Patient					
+Lisence Number	Plan	Goal	Excercise					
+Lisence Number	PatientId	Date	Room Number	Payment				
+Lisence Number	Date	Amount	AdminId					
+"Lisence Number;""Date"";""Salary"";""Commission"""								
+AdminId	Email	Contact Number						
+AdminId	PatientId	Case study	Resource	BrainStrom	Tune			
+AdminId	Lisence Number	Case study	Resource	BrainStrom	Tune			
+AdminId	Worker Id	Datasheet						
+Bill Id	Date	Bill Info	PatientId					
+Lisence Number								
+Lisence number	Serial	Location	Category	Schedule	Payment			
+								

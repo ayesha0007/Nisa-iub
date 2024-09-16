@@ -1,0 +1,25 @@
+patientId,License Number,Identified Problem,Medication,Doses,Tips
+2301001,BM199701102MH,Personality disorders,Fluoxetine, (1+0+1),Engage in regular psychotherapy and Maintain a strong support system of family and friends.
+2301002,BM199701102MH,PTSD,Paroxetine ,(0+0+1),"Regular exercise, balanced diet, adequate sleep."
+2301003,BM199701102MH,Eating disorder,Norpramin,(0+0+1),"Establish a structured eating routine and Focus on balanced, nutritious meals."
+2301004,BM199701102MH,Depression,Antidepressants,(1+1+1),"Regular exercise, and Therapy"
+2301005,BM199701102MH,Panic disorder,Buspirone,(0+1+1),Practice deep breathing and mindfulness and Engage in regular physical activity
+2301006,BM199701102MH,Sleep Disorders,Melatonin,(0+1+1),Maintain a regular sleep schedule
+2301007,BM199701102MH,Social phobia,Fluoxetine,(1+0+1),Gradual exposure to social situations and Practice deep breathing or mindfulness
+2301008,BM199701102MH,Bipolar disorder,haloperidol,(0+1+0),Stick to your medication schedule
+2301009,BM200008203MH,Anxiety Disorder,Benzodiazepine,(0+1+1),Practice deep breathing and mindfulness and Regular physical exercise.
+2301010,BM200008203MH,Trauma,Sertraline,(0+1+1),Engage with a therapist or counselo
+2301011,BM200008203MH,Trust Issues ,Pistanthrophobia ,(0+1+0),hare feelings and concerns honestly.
+2301012,BM200008203MH,Addiction,buprenorphine ,(1+1+0),Seek professional help and counseling and Join support groups or therapy.
+2301013,BM200008203MH,Stress Management,Prozac ,(0+0+1),Practice deep breathing exercises.
+2301014,BM200008203MH,Self-Esteem Issues,beta blockers,(0+1+),Small wins boost confidence.
+2301015,BM200008203MH,Grief and Loss,antidepressants,(1+0+0),Allow yourself to feel and express emotions.
+2301016,BM200008203MH,Mood Disorders,Quetiapine,(1+1+1),Maintain a support network.
+2301017,BM202222221MH,Substance use disorder,naltrexone,(1+0+1),Seek professional help and support.
+2301018,BM202222221MH,Chronic pain,acetaminophen,(0+0+1),Regular exercise and physical therapy
+2301019,BM202222221MH,Autism spectrum disorder,aripripazole,(0+0+1),"Use clear, direct language and visual supports."
+2301020,BM202222221MH,Neurodevelopmental disorder,Levocarnitine,(1+1+1),Helps with coping skills and behavioral management.
+2301021,BM202222221MH,Interpersonal problems,Tegretol,(0+1+1),Try to understand others' feelings.
+2301022,BM202222221MH,Conversion disorder,haloperidol,(0+1+1),Helps manage physical symptoms and improve function.
+2301023,BM202222221MH,Hypochondriasis,Antidepressants,(1+0+1),Regular physical activity and a healthy lifestyle can improve overall well-being.
+2301024,BM202222221MH,Improving self-esteem,benzodiazepines,(0+1+0),Replace negative thoughts with affirmations.

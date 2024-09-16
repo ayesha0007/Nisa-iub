@@ -1,0 +1,1 @@
+SELECT * FROM mental_health_database.admin_manage_social_worker;

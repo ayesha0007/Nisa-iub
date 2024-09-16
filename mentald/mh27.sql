@@ -1,0 +1,1 @@
+SELECT * FROM mental_health_database.therapist_yoga_session;

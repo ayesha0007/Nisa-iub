@@ -1,0 +1,1 @@
+SELECT * FROM mental_health_database.psychiatrist_prescription;

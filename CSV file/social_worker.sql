@@ -1,0 +1,1 @@
+SELECT * FROM mental_health.social_worker;

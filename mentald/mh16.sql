@@ -1,0 +1,1 @@
+SELECT * FROM mental_health_database.patient_default_course;

@@ -11,6 +11,9 @@ body {
 }
 
 header {
+    text-align: left;
+}
+.h1{
     text-align: center;
 }
 
@@ -33,13 +36,9 @@ h1, h2 {
 
 .study-step {
     text-align: center;
-    width: 30%;
 }
 
-.study-step img {
-    width: 100%;
-    height: auto;
-}
+
 
 .details p {
     margin: 10px 0;
@@ -54,10 +53,7 @@ h1, h2 {
     margin: 20px 0;
 }
 
-.demographics img {
-    width: 100%;
-    height: auto;
-}
+
 
 .outcome {
     margin: 20px 0;
@@ -94,9 +90,55 @@ h1, h2 {
     height: 150px;
     background-color: grey;
     margin: 10px auto;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 18px;
 }
+  
+  /* Footer Styles */
+  .footer {
+    padding: 2.5rem;
+    background-color: #030F14;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer img {
+    width: 6rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer nav {
+    margin: 1rem;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .link-hover:hover {
+    text-decoration: underline;
+  }
+  

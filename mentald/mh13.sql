@@ -1,0 +1,1 @@
+SELECT * FROM mental_health_database.health_care_provider;
